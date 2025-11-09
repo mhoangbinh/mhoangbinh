@@ -80,7 +80,7 @@
   <main class="container">
     <section class="card profile">
       <div class="avatar" title="Thay avatar bằng file 'avatar.jpg'">
-        <img src="https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/d4d0724fd88f57d06a255540a9e852a2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=3c060b3a&x-expires=1761667200&x-signature=2CJyJOF91ron9lLmAouPy4Rb2Zo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my" alt="Ảnh đại diện của tôi" id="avatarImg">
+         <img src="https://i.pinimg.com/736x/71/03/3c/71033c8b164dfdca1cfd0fdbed548d56.jpg" alt="Ảnh đại diện của tôi" id="avatarImg">
       </div>
       <div class="name">Hoàng Minh</div>
       <div class="role">mhoangbinh</div>
@@ -133,8 +133,6 @@
       avatar.title = 'Nhấp để chọn ảnh đại diện (chỉ hoạt động cục bộ)';
       avatar.addEventListener('click', function(){
         var input = document.createElement('input');
-        input.type = 'file';
-        input.accept = 'image/*';
         input.onchange = function(e){
           var file = e.target.files[0];
           if(!file) return;
